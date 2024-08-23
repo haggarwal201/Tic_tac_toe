@@ -1,0 +1,45 @@
+body{
+    background-color: aquamarine;
+    text-align: center;
+   
+}
+
+.container{
+    display : flex;
+    justify-content:center;
+    height:70vh;
+    width:auto;
+}
+
+.game{
+    display:flex;
+    flex-wrap: wrap;
+    gap:10px;
+    row-gap: 2px;
+    height:60vh;
+    width:60vh;
+}
+
+ .btn{
+    background-color:azure;
+    height:18vh;
+    width: 18vh;
+    border-radius:1rem;
+    font-size:xxx-large;
+    color:brown;
+} 
+
+#reset{
+    padding: 0.5rem;
+    font-size: larger;
+    background-color: black;
+    color:blanchedalmond
+}
+
+      
+
+.result{
+    color:red;
+ 
+
+}
